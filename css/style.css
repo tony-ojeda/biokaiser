@@ -20,12 +20,21 @@ body {
 header {
     width: 100%;
     background-color: #fcfff5;
+    position: relative;
 }
 
 header .contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+header .menu {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+    top: 10px;
+    border: 1px solid red;
 }
 
 .logo {
