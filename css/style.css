@@ -34,7 +34,6 @@ header .menu {
     position: sticky;
     z-index: 1000;
     top: 10px;
-    border: 1px solid red;
 }
 
 .logo {
